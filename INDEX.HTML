@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Obot | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content=" Professional portfolio showcasing web development and design work">
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <span>DO</span>
+            </div>
+            <nav>
+                <div class="menu-btn">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#media">Media</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content fade-in">
+                    <h1>Hi, I'm <span class="highlight">Daniel Obot </span></h1>
+                    <h2>Frontend Developer & UX Designer</h2>
+                    <p>I create beautiful, functional websites with engaging user experiences</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary">View My Work</a>
+                        <a href="#contact" class="btn secondary">Contact Me</a>
+                    </div>
+                    <div class="background-music">
+                        <audio id="backgroundMusic" loop>
+                            <source src="Music/Inertia.mp3.mp3" type="audio/mpeg">
+                        </audio>
+                        <button id="musicToggle" class="music-btn">
+                            <i class="fas fa-volume-mute"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about slide-in">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-img">
+                        <div class="img-container">
+                            <img src="Media/my_photo.jpg" alt="Your Profile Photo">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3>Who I Am</h3>
+                        <p>I'm a passionate frontend developer and UX designer with 3 years of experience creating modern web applications. I specialize in building responsive, accessible, and performant websites that deliver exceptional user experiences.</p>
+                        <p>My approach combines clean code with creative design solutions to build digital products that help businesses achieve their goals.</p>
+                        <div class="personal-info">
+                            <div class="info-item">
+                                <span class="info-title">Name:</span>
+                                <span class="info-value">Daniel Obot</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-title">Email:</span>
+                                <span class="info-value">danielobot3@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-title">Location:</span>
+                                <span class="info-value">Lagos, Nigeria</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-title">Available for:</span>
+                                <span class="info-value">Freelance & Full-time</span>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills slide-in">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-content">
+                    <div class="skills-text">
+                        <p>I'm constantly learning and keeping up with the latest technologies. Here are the key skills I've developed over the years:</p>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Frontend Development</h3>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>HTML5 & CSS3</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>JavaScript</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>React</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Design</h3>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>UI/UX Design</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Figma</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Adobe XD</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects slide-in">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="filter-tabs">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-category="web">
+                        <div class="project-img">
+                            <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=600" alt="E-commerce Website">
+                        </div>
+                        <div class="project-info">
+                            <h3>E-commerce Website</h3>
+                            <p>A responsive e-commerce platform with product filtering, cart functionality, and payment integration.</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">View Live <i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link">Source Code <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="design">
+                        <div class="project-img">
+                            <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Finance App UI">
+                        </div>
+                        <div class="project-info">
+                            <h3>Finance App UI</h3>
+                            <p>A clean, intuitive interface design for a personal finance tracking application.</p>
+                            <div class="project-tags">
+                                <span>Figma</span>
+                                <span>UI/UX</span>
+                                <span>Prototyping</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">View Design <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="mobile">
+                        <div class="project-img">
+                            <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fitness Tracker App">
+                        </div>
+                        <div class="project-info">
+                            <h3>Fitness Tracker App</h3>
+                            <p>A mobile application for tracking workouts, nutrition, and fitness goals with progress visualization.</p>
+                            <div class="project-tags">
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>Redux</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link">Source Code <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="web">
+                        <div class="project-img">
+                            <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Portfolio Website">
+                        </div>
+                        <div class="project-info">
+                            <h3>Portfolio Website</h3>
+                            <p>A personal portfolio website showcasing projects and skills with a modern, responsive design.</p>
+                            <div class="project-tags">
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>GSAP</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">View Live <i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link">Source Code <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="media" class="media slide-in">
+            <div class="container">
+                <h2 class="section-title">Media Gallery</h2>
+                <div class="media-grid">
+                    <div class="media-item">
+                        <h3>Building a React App from Scratch</h3>
+                        <div class="video-container">
+                            <iframe class="project-video" src="https://www.youtube.com/embed/w7ejDZ8SWv8" title="React JS Crash Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <p>Learn how to build a complete React application from the ground up.</p>
+                    </div>
+                    <div class="media-item">
+                        <h3>Modern JavaScript Explained</h3>
+                        <div class="video-container">
+                            <iframe class="project-video" src="https://www.youtube.com/embed/hdI2bqOjy3c" title="JavaScript Crash Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <p>A comprehensive guide to modern JavaScript features and best practices.</p>
+                    </div>
+                    <div class="media-item">
+                        <h3>Web Design Principles</h3>
+                        <div class="video-container">
+                            <iframe class="project-video" src="https://www.youtube.com/embed/B-ytMSuwbf8" title="Web Design Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <p>Essential principles for creating effective and beautiful web designs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact slide-in">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Location</h3>
+                                <p>Lagos, Nigeria</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>danielobot3@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p>(+234) 902 271 4457</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                                <span class="form-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                                <span class="form-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                                <span class="form-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                                <span class="form-error"></span>
+                            </div>
+                            <button type="submit" class="btn primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>DO</span>
+                    <p>Frontend Developer & UX Designer</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-nav">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <h3>Connect</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Daniel Obot . All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#home" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
